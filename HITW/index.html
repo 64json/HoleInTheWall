@@ -9,11 +9,42 @@
             margin: 0px;
             padding: 0px;
         }
+
+        #wrapper {
+            position: relative;
+        }
+
+        #myCanvas {
+            position: relative;
+        }
+
+        #developer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 16px;
+        }
+
+        a:link {
+            color: #000000;
+        }
+
+        a:visited {
+            color: #000000;
+        }
+
+        a:hover {
+            color: #3B5998;
+        }
     </style>
     <title>Hole in the Wall</title>
 </head>
 <body onmousedown="return false;">
-<canvas id="myCanvas"></canvas>
+<div id="wrapper">
+    <canvas id="myCanvas"></canvas>
+    <div id="developer">Developed by <a href="http://fb.com/parkjs814" target="_blank">Jason Park</a>, <a
+            href="http://fb.com/sanghyuk.lee.568" target="_blank">Jake Lee</a></div>
+</div>
 <script src="./javascript/canvas.js"></script>
 </body>
 </html>
